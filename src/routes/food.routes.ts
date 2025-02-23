@@ -1,8 +1,8 @@
 import { Router } from "express";
 import { getFoods } from "../controllers/food.controller";
 
-const userRoute = Router();
+const foodRoute = Router();
 
-userRoute.get("/foods", getFoods);
+foodRoute.get("/foods", getFoods);
 
-export default userRoute;
+export default foodRoute;
